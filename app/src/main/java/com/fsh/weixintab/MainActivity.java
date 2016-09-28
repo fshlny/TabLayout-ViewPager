@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
         View v = LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
         TextView tv = (TextView) v.findViewById(R.id.tab_text);
         tv.setText(tabs[position]);
-       // tv.setTextColor(getResources().getColor());
         ImageView img = (ImageView) v.findViewById(R.id.tab_image);
         img.setImageResource(tabImgs[position]);
         return v;

@@ -20,9 +20,9 @@ public class PageFragment extends Fragment {
     public PageFragment(){}
 
 
+    @SuppressLint("ValidFragment")
     public PageFragment(String content){
         this.content = content;
-        Log.e(PageFragment.class.getName(),"初始化........................");
     }
 
     @Nullable
